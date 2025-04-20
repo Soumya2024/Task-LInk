@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page Not Found - Codeland</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      display: flex;
+      min-height: 100vh;
+      background-color: #f9f9f9;
+    }
+
+    .sidebar {
+      width: 250px;
+      background-color: #999;
+      color: white;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .sidebar img {
+      width: 120px;
+      margin-bottom: 20px;
+    }
+
+    .sidebar ul li {
+        list-style: none;
+        padding: 20px 0;
+        color: white;
+        font-size: 18px;
+        font-weight: 300; /* or 400 for normal, depending on how thin you want it */
+        cursor: pointer;
+    }
+
+    .sidebar ul li:hover {
+        text-decoration: underline;
+    }
+
+
+    .sidebar nav ul {
+      list-style: none;
+    }
+
+    .sidebar nav ul li {
+      margin: 15px 0;
+      font-weight: bold;
+    }
+
+    .sidebar .social-icons {
+      display: flex;
+      gap: 10px;
+    }
+
+    .sidebar .social-icons img {
+      width: 24px;
+      height: 24px;
+      cursor: pointer;
+    }
+
+    .main {
+      flex: 1;
+      padding: 40px;
+    }
+
+    .topnav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-bottom: 40px;
+      font-size: 14px;
+    }
+
+    .topnav a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .main h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .main p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .search-box {
+      display: flex;
+      max-width: 400px;
+    }
+
+    .search-box input {
+      flex: 1;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px 0 0 4px;
+    }
+
+    .search-box button {
+      padding: 10px 20px;
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 0 4px 4px 0;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+<aside class="sidebar">
+    <div>
+        <img src="logo-corporate.png" alt="Codeland Logo" />
+        <nav>
+        <ul>
+            <li>HOME</li>
+            <li>COMPANY</li>
+            <li>WHY CHOOSE US</li>
+            <li>INDUSTRIES</li>
+            <li>CONSULTING</li>
+            <li>SUPPORT</li>
+        </ul>
+        </nav>
+    </div>
+    <div class="social-icons">
+        <img src="https://img.icons8.com/ios-glyphs/30/x.png" alt="X logo" />
+        <img src="https://img.icons8.com/ios-filled/50/linkedin.png" alt="LinkedIn logo" />
+    </div>
+    </aside>      
+
+  <main class="main">
+    <h2>Codeland</h2>
+    <div class="topnav">
+      <a href="#">Company</a>
+      <a href="#">consulting</a>
+      <a href="#">contact</a>
+      <a href="#">cookie policy</a>
+      <a href="#">footer</a>
+      <a href="#">Healthcare</a>
+      <a href="#">Homepage</a>
+      <a href="#">industries</a>
+      <a href="#">privacy policy</a>
+      <a href="#">project-methodology</a>
+      <a href="#">services-and-technologies</a>
+      <a href="#">Waste Management</a>
+      <a href="#">why-choose-us</a>
+    </div>
+
+    <h1>Page Not Found</h1>
+    <p>The page you are looking for does not exist, or it has been moved. Please try searching using the form below.</p>
+    <div class="search-box">
+      <input type="text" placeholder="Search...">
+      <button>Search</button>
+    </div>
+  </main>
+</body>
+</html>
