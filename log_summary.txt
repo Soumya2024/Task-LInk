@@ -1,0 +1,5 @@
+Log Summary:
+INFO2: 40
+TRACE: 7
+WARNING: 4
+ERROR: 1
